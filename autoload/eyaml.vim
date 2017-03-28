@@ -1,7 +1,7 @@
 function! EyamlWrap()
   let save = @"
-  silent normal gvy
-  let @" = "DEC::PKCS7[" . @" . "]"
-  silent normal gvp
+  silent normal de
+  let @" = "DEC::PKCS7[" . @" . "]!"
+  silent normal P
   let @" = save
 endfunction
